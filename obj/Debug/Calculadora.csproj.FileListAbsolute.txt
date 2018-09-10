@@ -1,0 +1,29 @@
+C:\Users\Alma\Google Drive\ITA\6_Materias Semestre Enero - Junio 2018\09-10 Tópicos Avanzados de Programación\Ejercicios\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\Alma\Google Drive\ITA\6_Materias Semestre Enero - Junio 2018\09-10 Tópicos Avanzados de Programación\Ejercicios\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\Alma\Google Drive\ITA\6_Materias Semestre Enero - Junio 2018\09-10 Tópicos Avanzados de Programación\Ejercicios\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\Alma\Google Drive\ITA\6_Materias Semestre Enero - Junio 2018\09-10 Tópicos Avanzados de Programación\Ejercicios\Calculadora\obj\Debug\Calculadora.Form1.resources
+C:\Users\Alma\Google Drive\ITA\6_Materias Semestre Enero - Junio 2018\09-10 Tópicos Avanzados de Programación\Ejercicios\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\Alma\Google Drive\ITA\6_Materias Semestre Enero - Junio 2018\09-10 Tópicos Avanzados de Programación\Ejercicios\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.Cache
+C:\Users\Alma\Google Drive\ITA\6_Materias Semestre Enero - Junio 2018\09-10 Tópicos Avanzados de Programación\Ejercicios\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Alma\Google Drive\ITA\6_Materias Semestre Enero - Junio 2018\09-10 Tópicos Avanzados de Programación\Ejercicios\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\Alma\Google Drive\ITA\6_Materias Semestre Enero - Junio 2018\09-10 Tópicos Avanzados de Programación\Ejercicios\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\Alma\Google Drive\ITA\6_Materias Semestre Enero - Junio 2018\09-10 Tópicos Avanzados de Programación\Ejercicios\Calculadora\obj\Debug\Calculadora.csprojAssemblyReference.cache
+C:\Users\Miriam Gallardo\Desktop\TOPICOS AVANZADOS\UNIDAD 1 Y 2\Ejercicios Uni. 1 y 2\Ejercicios\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\Miriam Gallardo\Desktop\TOPICOS AVANZADOS\UNIDAD 1 Y 2\Ejercicios Uni. 1 y 2\Ejercicios\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\Miriam Gallardo\Desktop\TOPICOS AVANZADOS\UNIDAD 1 Y 2\Ejercicios Uni. 1 y 2\Ejercicios\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\Miriam Gallardo\Desktop\TOPICOS AVANZADOS\UNIDAD 1 Y 2\Ejercicios Uni. 1 y 2\Ejercicios\Calculadora\obj\Debug\Calculadora.csprojAssemblyReference.cache
+C:\Users\Miriam Gallardo\Desktop\TOPICOS AVANZADOS\UNIDAD 1 Y 2\Ejercicios Uni. 1 y 2\Ejercicios\Calculadora\obj\Debug\Calculadora.Form1.resources
+C:\Users\Miriam Gallardo\Desktop\TOPICOS AVANZADOS\UNIDAD 1 Y 2\Ejercicios Uni. 1 y 2\Ejercicios\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\Miriam Gallardo\Desktop\TOPICOS AVANZADOS\UNIDAD 1 Y 2\Ejercicios Uni. 1 y 2\Ejercicios\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\Miriam Gallardo\Desktop\TOPICOS AVANZADOS\UNIDAD 1 Y 2\Ejercicios Uni. 1 y 2\Ejercicios\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Miriam Gallardo\Desktop\TOPICOS AVANZADOS\UNIDAD 1 Y 2\Ejercicios Uni. 1 y 2\Ejercicios\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\Miriam Gallardo\Desktop\TOPICOS AVANZADOS\UNIDAD 1 Y 2\Ejercicios Uni. 1 y 2\Ejercicios\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\alina\Documents\Visual Studio 2015\Projects\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\alina\Documents\Visual Studio 2015\Projects\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\alina\Documents\Visual Studio 2015\Projects\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\alina\Documents\Visual Studio 2015\Projects\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\alina\Documents\Visual Studio 2015\Projects\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\alina\Documents\Visual Studio 2015\Projects\Calculadora\obj\Debug\Calculadora.csprojResolveAssemblyReference.cache
+C:\Users\alina\Documents\Visual Studio 2015\Projects\Calculadora\obj\Debug\Calculadora.Form1.resources
+C:\Users\alina\Documents\Visual Studio 2015\Projects\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\alina\Documents\Visual Studio 2015\Projects\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.Cache
