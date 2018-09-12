@@ -56,21 +56,8 @@
             this.cbInvertirColores = new System.Windows.Forms.CheckBox();
             this.rbEstandar = new System.Windows.Forms.RadioButton();
             this.rbCientifica = new System.Windows.Forms.RadioButton();
-            this.btn10x = new System.Windows.Forms.Button();
-            this.btnlog = new System.Windows.Forms.Button();
-            this.btnexp = new System.Windows.Forms.Button();
-            this.btnx3 = new System.Windows.Forms.Button();
-            this.btntan = new System.Windows.Forms.Button();
-            this.btntanh = new System.Windows.Forms.Button();
-            this.btnx2 = new System.Windows.Forms.Button();
-            this.btncos = new System.Windows.Forms.Button();
-            this.btncosh = new System.Windows.Forms.Button();
-            this.btnxx1 = new System.Windows.Forms.Button();
-            this.btnsin = new System.Windows.Forms.Button();
-            this.btnsinh = new System.Windows.Forms.Button();
-            this.btnms = new System.Windows.Forms.Button();
-            this.btnmr = new System.Windows.Forms.Button();
-            this.btnmc = new System.Windows.Forms.Button();
+            this.cubo = new System.Windows.Forms.Button();
+            this.Cuadrado = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -414,9 +401,9 @@
             this.cbInvertirColores.AutoSize = true;
             this.cbInvertirColores.Location = new System.Drawing.Point(102, 126);
             this.cbInvertirColores.Name = "cbInvertirColores";
-            this.cbInvertirColores.Size = new System.Drawing.Size(95, 17);
+            this.cbInvertirColores.Size = new System.Drawing.Size(90, 17);
             this.cbInvertirColores.TabIndex = 65;
-            this.cbInvertirColores.Text = "Invertir colores";
+            this.cbInvertirColores.Text = "Cambiar color";
             this.cbInvertirColores.UseVisualStyleBackColor = true;
             this.cbInvertirColores.CheckedChanged += new System.EventHandler(this.cbInvertirColores_CheckedChanged);
             // 
@@ -444,185 +431,29 @@
             this.rbCientifica.UseVisualStyleBackColor = true;
             this.rbCientifica.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
-            // btn10x
+            // cubo
             // 
-            this.btn10x.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btn10x.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn10x.ForeColor = System.Drawing.Color.White;
-            this.btn10x.Location = new System.Drawing.Point(319, 345);
-            this.btn10x.Name = "btn10x";
-            this.btn10x.Size = new System.Drawing.Size(43, 40);
-            this.btn10x.TabIndex = 82;
-            this.btn10x.Text = "10x";
-            this.btn10x.UseVisualStyleBackColor = false;
+            this.cubo.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.cubo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cubo.ForeColor = System.Drawing.Color.White;
+            this.cubo.Location = new System.Drawing.Point(305, 240);
+            this.cubo.Name = "cubo";
+            this.cubo.Size = new System.Drawing.Size(44, 40);
+            this.cubo.TabIndex = 72;
+            this.cubo.Text = "X^3";
+            this.cubo.UseVisualStyleBackColor = false;
             // 
-            // btnlog
+            // Cuadrado
             // 
-            this.btnlog.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btnlog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnlog.ForeColor = System.Drawing.Color.White;
-            this.btnlog.Location = new System.Drawing.Point(271, 346);
-            this.btnlog.Name = "btnlog";
-            this.btnlog.Size = new System.Drawing.Size(43, 40);
-            this.btnlog.TabIndex = 81;
-            this.btnlog.Text = "LOG";
-            this.btnlog.UseVisualStyleBackColor = false;
-            // 
-            // btnexp
-            // 
-            this.btnexp.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btnexp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnexp.ForeColor = System.Drawing.Color.White;
-            this.btnexp.Location = new System.Drawing.Point(224, 344);
-            this.btnexp.Name = "btnexp";
-            this.btnexp.Size = new System.Drawing.Size(43, 40);
-            this.btnexp.TabIndex = 80;
-            this.btnexp.Text = "EXP";
-            this.btnexp.UseVisualStyleBackColor = false;
-            // 
-            // btnx3
-            // 
-            this.btnx3.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btnx3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnx3.ForeColor = System.Drawing.Color.White;
-            this.btnx3.Location = new System.Drawing.Point(319, 303);
-            this.btnx3.Name = "btnx3";
-            this.btnx3.Size = new System.Drawing.Size(43, 40);
-            this.btnx3.TabIndex = 79;
-            this.btnx3.Text = "x3";
-            this.btnx3.UseVisualStyleBackColor = false;
-            // 
-            // btntan
-            // 
-            this.btntan.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btntan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btntan.ForeColor = System.Drawing.Color.White;
-            this.btntan.Location = new System.Drawing.Point(271, 303);
-            this.btntan.Name = "btntan";
-            this.btntan.Size = new System.Drawing.Size(43, 40);
-            this.btntan.TabIndex = 78;
-            this.btntan.Text = "Tan";
-            this.btntan.UseVisualStyleBackColor = false;
-            // 
-            // btntanh
-            // 
-            this.btntanh.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btntanh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btntanh.ForeColor = System.Drawing.Color.White;
-            this.btntanh.Location = new System.Drawing.Point(224, 301);
-            this.btntanh.Name = "btntanh";
-            this.btntanh.Size = new System.Drawing.Size(43, 40);
-            this.btntanh.TabIndex = 77;
-            this.btntanh.Text = "Tanh";
-            this.btntanh.UseVisualStyleBackColor = false;
-            // 
-            // btnx2
-            // 
-            this.btnx2.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btnx2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnx2.ForeColor = System.Drawing.Color.White;
-            this.btnx2.Location = new System.Drawing.Point(319, 260);
-            this.btnx2.Name = "btnx2";
-            this.btnx2.Size = new System.Drawing.Size(43, 40);
-            this.btnx2.TabIndex = 76;
-            this.btnx2.Text = "x2";
-            this.btnx2.UseVisualStyleBackColor = false;
-            // 
-            // btncos
-            // 
-            this.btncos.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btncos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncos.ForeColor = System.Drawing.Color.White;
-            this.btncos.Location = new System.Drawing.Point(271, 258);
-            this.btncos.Name = "btncos";
-            this.btncos.Size = new System.Drawing.Size(43, 40);
-            this.btncos.TabIndex = 75;
-            this.btncos.Text = "Cos";
-            this.btncos.UseVisualStyleBackColor = false;
-            // 
-            // btncosh
-            // 
-            this.btncosh.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btncosh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncosh.ForeColor = System.Drawing.Color.White;
-            this.btncosh.Location = new System.Drawing.Point(224, 258);
-            this.btncosh.Name = "btncosh";
-            this.btncosh.Size = new System.Drawing.Size(43, 40);
-            this.btncosh.TabIndex = 74;
-            this.btncosh.Text = "Cosh";
-            this.btncosh.UseVisualStyleBackColor = false;
-            // 
-            // btnxx1
-            // 
-            this.btnxx1.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btnxx1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnxx1.ForeColor = System.Drawing.Color.White;
-            this.btnxx1.Location = new System.Drawing.Point(319, 216);
-            this.btnxx1.Name = "btnxx1";
-            this.btnxx1.Size = new System.Drawing.Size(43, 40);
-            this.btnxx1.TabIndex = 73;
-            this.btnxx1.Text = "x-1";
-            this.btnxx1.UseVisualStyleBackColor = false;
-            // 
-            // btnsin
-            // 
-            this.btnsin.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btnsin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnsin.ForeColor = System.Drawing.Color.White;
-            this.btnsin.Location = new System.Drawing.Point(271, 216);
-            this.btnsin.Name = "btnsin";
-            this.btnsin.Size = new System.Drawing.Size(43, 40);
-            this.btnsin.TabIndex = 72;
-            this.btnsin.Text = "Sin";
-            this.btnsin.UseVisualStyleBackColor = false;
-            // 
-            // btnsinh
-            // 
-            this.btnsinh.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btnsinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnsinh.ForeColor = System.Drawing.Color.White;
-            this.btnsinh.Location = new System.Drawing.Point(224, 215);
-            this.btnsinh.Name = "btnsinh";
-            this.btnsinh.Size = new System.Drawing.Size(43, 40);
-            this.btnsinh.TabIndex = 71;
-            this.btnsinh.Text = "Sinh";
-            this.btnsinh.UseVisualStyleBackColor = false;
-            // 
-            // btnms
-            // 
-            this.btnms.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btnms.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnms.ForeColor = System.Drawing.Color.White;
-            this.btnms.Location = new System.Drawing.Point(319, 172);
-            this.btnms.Name = "btnms";
-            this.btnms.Size = new System.Drawing.Size(43, 40);
-            this.btnms.TabIndex = 70;
-            this.btnms.Text = "MS";
-            this.btnms.UseVisualStyleBackColor = false;
-            // 
-            // btnmr
-            // 
-            this.btnmr.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btnmr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnmr.ForeColor = System.Drawing.Color.White;
-            this.btnmr.Location = new System.Drawing.Point(271, 172);
-            this.btnmr.Name = "btnmr";
-            this.btnmr.Size = new System.Drawing.Size(43, 40);
-            this.btnmr.TabIndex = 69;
-            this.btnmr.Text = "MR";
-            this.btnmr.UseVisualStyleBackColor = false;
-            // 
-            // btnmc
-            // 
-            this.btnmc.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btnmc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnmc.ForeColor = System.Drawing.Color.White;
-            this.btnmc.Location = new System.Drawing.Point(224, 171);
-            this.btnmc.Name = "btnmc";
-            this.btnmc.Size = new System.Drawing.Size(43, 40);
-            this.btnmc.TabIndex = 68;
-            this.btnmc.Text = "MC";
-            this.btnmc.UseVisualStyleBackColor = false;
+            this.Cuadrado.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.Cuadrado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Cuadrado.ForeColor = System.Drawing.Color.White;
+            this.Cuadrado.Location = new System.Drawing.Point(255, 240);
+            this.Cuadrado.Name = "Cuadrado";
+            this.Cuadrado.Size = new System.Drawing.Size(44, 40);
+            this.Cuadrado.TabIndex = 71;
+            this.Cuadrado.Text = "X^2";
+            this.Cuadrado.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -631,21 +462,8 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(224, 411);
-            this.Controls.Add(this.btn10x);
-            this.Controls.Add(this.btnlog);
-            this.Controls.Add(this.btnexp);
-            this.Controls.Add(this.btnx3);
-            this.Controls.Add(this.btntan);
-            this.Controls.Add(this.btntanh);
-            this.Controls.Add(this.btnx2);
-            this.Controls.Add(this.btncos);
-            this.Controls.Add(this.btncosh);
-            this.Controls.Add(this.btnxx1);
-            this.Controls.Add(this.btnsin);
-            this.Controls.Add(this.btnsinh);
-            this.Controls.Add(this.btnms);
-            this.Controls.Add(this.btnmr);
-            this.Controls.Add(this.btnmc);
+            this.Controls.Add(this.cubo);
+            this.Controls.Add(this.Cuadrado);
             this.Controls.Add(this.rbCientifica);
             this.Controls.Add(this.rbEstandar);
             this.Controls.Add(this.cbInvertirColores);
@@ -713,21 +531,8 @@
         private System.Windows.Forms.CheckBox cbInvertirColores;
         private System.Windows.Forms.RadioButton rbEstandar;
         private System.Windows.Forms.RadioButton rbCientifica;
-        private System.Windows.Forms.Button btn10x;
-        private System.Windows.Forms.Button btnlog;
-        private System.Windows.Forms.Button btnexp;
-        private System.Windows.Forms.Button btnx3;
-        private System.Windows.Forms.Button btntan;
-        private System.Windows.Forms.Button btntanh;
-        private System.Windows.Forms.Button btnx2;
-        private System.Windows.Forms.Button btncos;
-        private System.Windows.Forms.Button btncosh;
-        private System.Windows.Forms.Button btnxx1;
-        private System.Windows.Forms.Button btnsin;
-        private System.Windows.Forms.Button btnsinh;
-        private System.Windows.Forms.Button btnms;
-        private System.Windows.Forms.Button btnmr;
-        private System.Windows.Forms.Button btnmc;
+        private System.Windows.Forms.Button cubo;
+        private System.Windows.Forms.Button Cuadrado;
     }
 }
 

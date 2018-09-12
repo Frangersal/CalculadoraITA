@@ -178,12 +178,10 @@ namespace Calculadora
         private void Color_Normal()
         {
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
         }
         private void Color_Invert()
         {
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(139)))));
-            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(139)))));            
         }
 
 
