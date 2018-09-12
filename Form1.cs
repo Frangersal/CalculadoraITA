@@ -144,103 +144,48 @@ namespace Calculadora
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             this.Size = new Size(240, 450);
             etPantalla.Size = new Size(200, 50);
+            etTitulo.Size = new Size(165, 60);
             NumApp.Size = new Size(225, 16);
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            this.Size = new Size(480, 450);
-            etPantalla.Size = new Size(420, 50);
-            NumApp.Size = new Size(475, 16);
+            this.Size = new Size(400, 450);
+            etPantalla.Size = new Size(350, 50);
+            etTitulo.Size = new Size(325,60);
+            NumApp.Size = new Size(390, 16);
         }
 
+        
         private void cbInvertirColores_CheckedChanged(object sender, EventArgs e)
         {
-            Color_Invert();
+            if (cbInvertirColores.Checked)
+            {
+                Color_Invert();
+            }
+            else
+            {
+                Color_Normal();
+            }            
         }
-
+        private void Color_Normal()
+        {
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
+        }
         private void Color_Invert()
         {
-            lblITA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            lblITA.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            etTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            etTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btDigito0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btDigito0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btDigito1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btDigito1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btDigito2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btDigito2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btDigito3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btDigito3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btDigito4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btDigito4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btDigito5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btDigito5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btDigito6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btDigito6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btDigito7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btDigito7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btDigito8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btDigito8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btDigito9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btDigito9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btComaDec.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btComaDec.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btIniciar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btIniciar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btBorrarEntrada.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btBorrarEntrada.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btTantoPorCiento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btTantoPorCiento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btDividir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btDividir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btPor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btPor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btMenos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btMenos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btMas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btMas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
-            btIgual.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            btIgual.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(139)))));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-
-            etPantalla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-            etPantalla.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-
-            NumApp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            NumApp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(000)))), ((int)(((byte)(000)))), ((int)(((byte)(000)))));
-
         }
+
 
         private void btComaDec_Paint(object sender, PaintEventArgs e)
         {
